@@ -1,0 +1,95 @@
+  <div data-page="signup" class="page">
+        <div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+            </a>
+        </div>
+        <div class="center sliding">Sign Up</div>
+    </div>
+</div>
+      
+    <div class="page-content">
+        <div class="content-block-title">Form Example</div>
+        <form id="my-form1" class="list-block store-data">
+            
+            <!--<div class="list-block store-data">-->
+              <ul>
+                <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+            <span id="email_err" class="err_msg"></span>
+                <div class="item-title label">E-mail
+                  </div>
+                <div class="item-input">
+                  <input type="email" placeholder="E-mail" name="email"/>
+                </div>
+              </div>
+            </div>
+          </li>
+                <li class="item-content">
+                  <div class="item-inner">
+                <span id="pass1_err" class="err_msg"></span>
+                    <div class="item-title label">Password
+                      </div>
+                    <div class="item-input">
+                      <input type="password" name="password1" placeholder="Your password">
+                    </div>
+                  </div>
+                </li>
+                  <li class="item-content">
+                  <div class="item-inner">
+                <span id="pass2_err" class="err_msg"></span>
+                    <div class="item-title label">Confirm Password
+                      </div>
+                    <div class="item-input">
+                      <input type="password" name="password2" placeholder="Your password">
+                    </div>
+                  </div>
+                </li>
+                  
+                  <li>
+      <div class="item-content">
+        <div class="item-inner">
+        <span id="city_err" class="err_msg"></span>
+             <div class="item-title label">City
+            </div>
+          <div class="item-input">
+            <input type="text" placeholder="Your City" readonly id="picker-device" name="city">
+          </div>
+        </div>
+      </div>
+    </li>
+            <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                  <span id="notify_err" class="err_msg"></span>
+                <div class="item-title label">Do you want to turn on notifications for this App?</div>
+                <div class="item-input">
+                 <!-- <label class="label-switch">
+                    <input type="checkbox" name="notify"/>
+                    <div class="checkbox" ></div>
+                  </label>-->
+                <select id="notifyOption">
+                    <option disabled selected>choose</option>
+              <option>Yes</option>
+              <option>No</option>
+               </select>
+                </div>
+              </div>
+            </div>
+          </li>    
+              </ul>
+           <!-- </div>-->
+            
+            <div class="content-block">
+        <div class="row">
+            <div class="col-100 tablet-50">
+                 <input type="button" value="Submit" class="button button-big button-fill color-green" id="signupSubmit"/>
+            </div>
+        </div>
+      </div>
+          </form>
+    </div>
+  </div>
